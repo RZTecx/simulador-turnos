@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Turnos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+    <body>
+        <div class="container">
+            <h1>Simulador de Turnos</h1>
+        
+            <section class="formulario">
+            <h2>Solicitar Turno</h2>
+            <form id="form-turno">
+                <input type="text" id="nombre" placeholder="Nombre completo" required />
+                <input type="date" id="fecha" required />
+                <input type="time" id="hora" required />
+                <select id="servicio" required>
+                <option value="">Seleccionar servicio</option>
+                <option value="Peluquería">Peluquería</option>
+                <option value="Odontología">Odontología</option>
+                <option value="Consultoría">Consultoría</option>
+                </select>
+                <button type="submit">Agendar Turno</button>
+            </form>
+            </section>
+        
+            <section class="turnos">
+            <h2>Turnos Agendados</h2>
+            <div id="lista-turnos"></div>
+            </section>
+        </div>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>

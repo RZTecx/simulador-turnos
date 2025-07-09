@@ -1,0 +1,99 @@
+/* Tipografía moderna */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: #2d3748;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    color: #2b6cb0;
+    text-align: center;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  input, select, button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #2b6cb0;
+  }
+  
+  button {
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2c5282;
+  }
+  
+  /* Turnos */
+  #lista-turnos {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .tarjeta-turno {
+    background-color: #f9fafb;
+    border: 1px solid #e2e8f0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .tarjeta-turno div {
+    flex-grow: 1;
+  }
+  
+  .tarjeta-turno p {
+    margin: 6px 0;
+  }
+  
+  .tarjeta-turno button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #e53e3e;
+  }
+  
+  .tarjeta-turno button:hover {
+    background-color: #c53030;
+  }
+  
+  
